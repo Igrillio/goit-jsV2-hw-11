@@ -1,0 +1,35 @@
+.search {
+    &__container {
+      background-color: rgb(255, 255, 255);
+    }
+  
+    &__form {
+      display: flex;
+      justify-content: center;
+      padding: 40px;
+    }
+  
+    &__input {
+      width: 250px;
+      height: 40px;
+      border-radius: 30px;
+      margin-right: 10px;
+      outline: none;
+    }
+  
+    &__btn {
+      font-weight: 700;
+      background-color: rgb(246, 237, 192);
+      height: 40px;
+      border-radius: 30px;
+      transition: 500ms;
+      margin-right: 10px;
+      &:hover {
+        background-color: #586bff;
+        color: rgb(0, 0, 0);
+      }
+    }
+  }
+  
+  
+  
