@@ -81,9 +81,7 @@ const onSearchFormSubmit = async event => {
         markupGalleryItems(data.hits);
         lightbox.refresh();
         pixibuyApi.incrementPage();
-        const { height: cardHeight } = document
-          .querySelector('.container--gallery')
-          .firstElementChild.getBoundingClientRect();
+        const { height: cardHeight } = document.querySelector('.container--gallery').firstElementChild.getBoundingClientRect();
         window.scrollBy({
           top: cardHeight * 2,
           behavior: 'smooth',
